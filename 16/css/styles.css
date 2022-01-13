@@ -1,7 +1,10 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .header{
     height: 100px;
     width: 1440px;
-    position: relative;
+    position: absolute;
     font-family: Arial, Helvetica, sans-serif;
 }
 .logo{
@@ -72,6 +75,7 @@
 }
 .hr3{
     position: absolute;
+    width: 0px;
     height: 40px;
     left: 601px;
     top: 31px;
@@ -79,6 +83,7 @@
 }
 .hr4{
     position: absolute;
+    width: 0px;
     height: 40px;
     left: 826px;
     top: 31px;
@@ -86,6 +91,7 @@
     border: 1px solid gray;
 }
 .hr5{
+    width: 0;
     position: absolute;
     width: 1440px;
     left: 0px;
@@ -94,59 +100,10 @@
 }
 .hr6{
     position: absolute;
-    width: 340px;
-    left: 734px;
-    top: 1680px;
-    position: absolute;
-    border: 1px solid #969696;
-}
-.hr7{
-    position: absolute;
-    width: 1042px;
-    height: 6px;
-    left: 200px;
-    top: 2280px;
-    background: #969696;
-}
-.hr8{
-    position: absolute;
-    width: 1px;
-    height: 49px;
-    left: 400px;
-    top: 2339px;
-    z-index: 2;
-    background: gray;
-    border-radius: 2px;
-}
-.hr9{
-    position: absolute;
-width: 1px;
-height: 49px;
-left: 547px;
-top: 2339px;
-background: gray;
-border-radius: 2px;
-z-index: 2;
-}
-.hr10{
-    position: absolute;
-    width: 1px;
-    height: 49px;
-    left: 768px;
-    top: 2339px;
-    background: gray;
-    border-radius: 2px;
-    z-index: 2;
-}
-.hr11{
-    position: absolute;
-    width: 1px;
-    height: 49px;
-    left: 905px;
-    top: 2339px;
-    background: gray;
-    border-radius: 2px;
-    z-index: 2;
+    width: 237px;
+    left: 837px;
+    top: 1044px;
+    border: 1px solid #C4C4C4;
 }
 .dol{
     position: absolute;
@@ -362,6 +319,224 @@ z-index: 2;
     position: absolute;
     top: 170px;
     background: url(../images/maxresdefault\ \(1\)\ 2.png);
+    background: rgba(0, 0, 0, 0.2) cover;
+}
+.euro300{
+    position: absolute;
+    padding: 6px 21px 7px 23px;
+    left: 222px;
+    top: 104px;
+    font-size: 24px;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+.hotel{
+    width: 725px;
+    height: 102px;
+    position: absolute;
+    left: 195px;
+    top: 200px;
+    color: white;
+    font-size: 45px;
+
+}
+.podrobnee{
+    position: absolute;
+
+    padding: 10px 30px 10px 30px;
+    left: 286px;
+    top: 370px;
+    color: #FFFFFF;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid white;
+}
+.darken{
+    position: absolute;
+    height: 500px;
+    width: 1440px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 60%) top/cover;
+}
+.dot1{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 200px;
+    top: 450px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.dota{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 217px;
+    top: 450px;
+    background: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.dot3{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 234px;
+    top: 450px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.dot4{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 251px;
+    top: 450px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.dot5{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 268px;
+    top: 450px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.boutus{
+  background: #F8F8F8;
+  position: absolute;
+    width: 1440px;
+    height: 250px;
+    top: 660px;
+}
+.bro{
+    position: absolute;
+    width: 624px;
+    height: 72px;
+    left: 198px;
+    top: 30px;
+    font-size: 30px;
+    line-height: 36px;
+}
+.bro1{
+    position: absolute;
+    width: 335px;
+    height: 28px;
+    left: 198px;
+    top: 117px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #777777;
+}
+.bro2{
+    position: absolute;
+    left: 242px;
+    top: 165px;
+    padding: 15px 44px 15px 44px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #BDBDBD;
+    border: 1px solid white;
+}
+.bro3{
+    position: absolute;
+    left: 498px;
+    top: 165px;
+    background: #F8F8F8;
+    padding: 15px 44px 15px 44px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #969696;
+    background: white;
+    border: 1px solid #969696;
+}
+.bro4{
+    position: absolute;
+    width: 370px;
+    height: 198px;
+    left: 949px;
+    top: 27px;
+    font-size: 18px;
+    line-height: 66px;
+    position: absolute;
+    font-size: 18px;
+    line-height: 66px;
+}
+.umg1{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border: 2px dashed #969696;
+    padding: 10px 10px 10px 10px;
+    color: #969696;
+    border-radius: 50%;
+    left: 884px;
+    top: 60px;
+}
+.umg2{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border: 2px dashed #969696;
+    padding: 10px 10px 10px 10px;
+    color: #969696;
+    border-radius: 50%;
+    left: 884px;
+    top: 122px;
+}
+.umg3{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border: 2px dashed #969696;
+    padding: 10px 10px 10px 10px;
+    color: #969696;
+    border-radius: 50%;
+    left: 884px;
+    top: 184px;
+}
+.hot1{
+    position: absolute;
+    left: 198px;
+    top: 1000px;
+    font-size: 45px;
+}
+.hot2{
+    position: absolute;
+    left: 1100px;
+    top: 1020px;
+    border: 1px solid #969696;
+    padding: 14px 32px 14px 32px;
+    border-radius: 2px;
+    color: #969696;
+}
+.vector666{
+    height: 11px;
+    width: 25px;
+    padding: 17px 10px 17px 10px;
+    border: 1px solid #969696;
+    border-radius: 50%;
+    margin-top: 1040px;
+    margin-left: 659px;
+}
+.ctor{
+    height: 11px;
+    width: 25px;
+    padding: 17px 10px 17px 10px;
+    border: 1px solid #969696;
+    border-radius: 50%;
+    margin-top: 1040px;
+    margin-left: -180px;
 }
 .dub{
     width: 460px;
